@@ -1,0 +1,51 @@
+{
+  "deportistas": [
+    { "nombre": "Jugador 1", "edad": 25, "posicion": "Delantero", "equipo": "Equipo A" },
+    { "nombre": "Jugador 2", "edad": 28, "posicion": "Defensa", "equipo": "Equipo B" },
+    { "nombre": "Jugador 3", "edad": 22, "posicion": "Centrocampista", "equipo": "Equipo C" },
+    { "nombre": "Jugador 4", "edad": 30, "posicion": "Portero", "equipo": "Equipo D" },
+    { "nombre": "Jugador 5", "edad": 27, "posicion": "Defensa", "equipo": "Equipo E" }
+  ],
+  "equipos": [
+    { "nombre": "Equipo A", "ciudad": "Ciudad A", "jugadores": ["Jugador 1", "Jugador 6", "Jugador 7", "Jugador 8", "Jugador 9"] },
+    { "nombre": "Equipo B", "ciudad": "Ciudad B", "jugadores": ["Jugador 2", "Jugador 10", "Jugador 11", "Jugador 12", "Jugador 13"] },
+    { "nombre": "Equipo C", "ciudad": "Ciudad C", "jugadores": ["Jugador 3", "Jugador 14", "Jugador 15", "Jugador 16", "Jugador 17"] },
+    { "nombre": "Equipo D", "ciudad": "Ciudad D", "jugadores": ["Jugador 4", "Jugador 18", "Jugador 19", "Jugador 20", "Jugador 21"] },
+    { "nombre": "Equipo E", "ciudad": "Ciudad E", "jugadores": ["Jugador 5", "Jugador 22", "Jugador 23", "Jugador 24", "Jugador 25"] }
+  ],
+  "entrenadores": [
+    { "nombre": "Entrenador 1", "equipo": "Equipo A" },
+    { "nombre": "Entrenador 2", "equipo": "Equipo B" },
+    { "nombre": "Entrenador 3", "equipo": "Equipo C" },
+    { "nombre": "Entrenador 4", "equipo": "Equipo D" },
+    { "nombre": "Entrenador 5", "equipo": "Equipo E" }
+  ],
+  "arbitros": [
+    { "nombre": "Árbitro 1" },
+    { "nombre": "Árbitro 2" },
+    { "nombre": "Árbitro 3" },
+    { "nombre": "Árbitro 4" },
+    { "nombre": "Árbitro 5" }
+  ],
+  "encuentros": [
+    { "equipo_local": "Equipo A", "equipo_visitante": "Equipo B", "arbitro": "Árbitro 1", "fecha": "2023-09-01", "resultado": "2-1" },
+    { "equipo_local": "Equipo C", "equipo_visitante": "Equipo D", "arbitro": "Árbitro 2", "fecha": "2023-09-02", "resultado": "1-1" },
+    { "equipo_local": "Equipo E", "equipo_visitante": "Equipo A", "arbitro": "Árbitro 3", "fecha": "2023-09-03", "resultado": "0-3" },
+    { "equipo_local": "Equipo B", "equipo_visitante": "Equipo C", "arbitro": "Árbitro 4", "fecha": "2023-09-04", "resultado": "3-2" },
+    { "equipo_local": "Equipo D", "equipo_visitante": "Equipo E", "arbitro": "Árbitro 5", "fecha": "2023-09-05", "resultado": "1-0" }
+  ],
+  "resultados": [
+    { "equipo": "Equipo A", "partidos_jugados": 3, "partidos_ganados": 2, "partidos_empatados": 0, "partidos_perdidos": 1, "goles_a_favor": 5, "goles_en_contra": 4 },
+    { "equipo": "Equipo B", "partidos_jugados": 3, "partidos_ganados": 1, "partidos_empatados": 1, "partidos_perdidos": 1, "goles_a_favor": 6, "goles_en_contra": 6 },
+    { "equipo": "Equipo C", "partidos_jugados": 3, "partidos_ganados": 0, "partidos_empatados": 2, "partidos_perdidos": 1, "goles_a_favor": 3, "goles_en_contra": 4 },
+    { "equipo": "Equipo D", "partidos_jugados": 3, "partidos_ganados": 1, "partidos_empatados": 1, "partidos_perdidos": 1, "goles_a_favor": 2, "goles_en_contra": 2 },
+    { "equipo": "Equipo E", "partidos_jugados": 3, "partidos_ganados": 1, "partidos_empatados": 1, "partidos_perdidos": 1, "goles_a_favor": 3, "goles_en_contra": 4 }
+  ],
+  "tabla_posiciones": [
+    { "equipo": "Equipo A", "puntos": 6, "goles_a_favor": 5, "goles_en_contra": 4 },
+    { "equipo": "Equipo B", "puntos": 4, "goles_a_favor": 6, "goles_en_contra": 6 },
+    { "equipo": "Equipo C", "puntos": 2, "goles_a_favor": 3, "goles_en_contra": 4 },
+    { "equipo": "Equipo D", "puntos": 4, "goles_a_favor": 2, "goles_en_contra": 2 },
+    { "equipo": "Equipo E", "puntos": 4, "goles_a_favor": 3, "goles_en_contra": 4 }
+  ]
+}
